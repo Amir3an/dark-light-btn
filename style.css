@@ -1,0 +1,31 @@
+*{
+    box-sizing: border-box;
+    font-family: Arial;
+}
+
+.body{
+    display : grid;
+    place-content: center;
+    margin : auto;
+    background-color: #f1f1f1;
+    color : #252525;
+    height : 90vh;
+}
+
+.btn{
+    width : 400px;
+    height : 60px;
+    background-color: #707070;
+    border-radius: 5rem;
+    cursor: pointer;
+    font-size : 2rem;
+    color : #f1f1f1;
+    border : 2px solid transparent;
+    transition: all 1s;
+}
+
+.btn:hover{
+    background-color : #fff;
+    border-color: #707070;
+    color : #707070;
+}
